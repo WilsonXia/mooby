@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dirqdklcs1tqh"
+path="res://.godot/imported/move-b.ogg-a8fe77597a7f28bc664f963cb2dbc78d.oggvorbisstr"
+
+[deps]
+
+source_file="res://Desert Shooter Pack/Sounds/move-b.ogg"
+dest_files=["res://.godot/imported/move-b.ogg-a8fe77597a7f28bc664f963cb2dbc78d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

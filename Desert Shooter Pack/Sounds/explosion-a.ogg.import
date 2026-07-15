@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://4yfgblu31l8x"
+path="res://.godot/imported/explosion-a.ogg-d7bcf7e70f4777dcedd516693dbf6274.oggvorbisstr"
+
+[deps]
+
+source_file="res://Desert Shooter Pack/Sounds/explosion-a.ogg"
+dest_files=["res://.godot/imported/explosion-a.ogg-d7bcf7e70f4777dcedd516693dbf6274.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
