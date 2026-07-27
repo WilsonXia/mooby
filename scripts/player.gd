@@ -29,8 +29,8 @@ func _process(delta: float) -> void:
 		
 	$AnimatedSprite2D.flip_h = is_flipped
 	
-	velocity = direction * speed * delta
-	position += velocity
+	velocity = direction * speed
+	move_and_slide()
 
 func _setBounds(tiles: TileMapLayer) -> void:
 	var rect = tiles.get_used_rect()
