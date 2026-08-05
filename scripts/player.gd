@@ -60,9 +60,9 @@ func _rollLogic(delta: float, direction: Vector2) -> void:
 	if roll_timer > 0.0:
 		roll_timer = max(0.0, roll_timer - delta)
 		# Check if flipped
-		rotation += rotateSpeed * delta * flip
+		$AnimatedSprite2D.rotation += rotateSpeed * delta * flip
 	else:
-		rotation = 0
+		$AnimatedSprite2D.rotation = 0
 		if roll_reload_timer > 0.0:
 			roll_reload_timer -= delta
 		else:
@@ -72,6 +72,6 @@ func _setBounds(tiles: TileMapLayer) -> void:
 	var rect = tiles.get_used_rect()
 	$Camera2D.limit_left = rect.position.x * tiles.tile_set.tile_size.x
 	$Camera2D.limit_right = rect.end.x * tiles.tile_set.tile_size.x
-	$Camera2D.limit_top = rect.position.y * tiles.tile_set.tile_size.y
+	$Camera2D.limit_top = (rect.position.y - 3) * tiles.tile_set.tile_size.y
 	$Camera2D.limit_bottom = rect.end.y * tiles.tile_set.tile_size.x
 	

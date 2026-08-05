@@ -81,12 +81,13 @@ script = ExtResource("1_onrkg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1266737400]
 y_sort_enabled = true
+position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_1jxqw")
 animation = &"walk"
 offset = Vector2(0, -4)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=554261748]
-position = Vector2(0, 4)
+position = Vector2(0, -4)
 shape = SubResource("RectangleShape2D_3vyb7")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=931317550]
